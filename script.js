@@ -4,6 +4,7 @@ const ToDoInput = document.querySelector("#ToDoInput");
 const addTaskBtn = document.querySelector("#addTaskBtn");
 const firstMsg = document.querySelector("#firstMsg");
 const taskList = document.querySelector(".taskList");
+const search_div = document.querySelector("#container"); 
 
 addTaskBtn.addEventListener("click", addTaskBtnClick);
 

@@ -1,5 +1,5 @@
 'use strict';
-
+alert("Hi DOM!")
 const ToDoInput = document.querySelector("#ToDoInput");
 const addTaskBtn = document.querySelector("#addTaskBtn");
 const firstMsg = document.querySelector("#firstMsg");
